@@ -1,0 +1,17 @@
+name = "sales-army-webiste"
+main = "apps/web-admin/_worker.js"
+compatibility_date = "2026-11-01"
+
+[assets]
+directory = "apps/web-admin"
+binding = "ASSETS"
+run_worker_first = true
+
+[vars]
+SUPABASE_URL = "https://ivwvqpeivnltshrxjhjx.supabase.co"
+SUPABASE_ANON_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Iml2d3ZxcGVpdm5sdHNocnhqaGp4Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3OTE4MTcyNTgsImV4cCI6MjEwNzM5MzI1OH0.pkwOLQUyP0Te719UKV5s6wZ_GNXDe9AOMaeqkH0H-iY"
+# Secrets (never in this file):
+#   wrangler secret put SUPABASE_SERVICE_ROLE_KEY
+#   wrangler secret put RAZORPAY_KEY_ID / RAZORPAY_KEY_SECRET / RAZORPAY_WEBHOOK_SECRET
+# Optional: ALLOWED_ORIGINS = "https://other-app.example" for cross-origin API callers.
+

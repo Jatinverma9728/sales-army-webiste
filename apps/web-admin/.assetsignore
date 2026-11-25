@@ -1,0 +1,10 @@
+# Upload ONLY the browser bundle. The worker also enforces an allow-list
+# (api/static.mjs), this file just keeps everything else off the CDN.
+*
+!index.html
+!legal.html
+!app.js
+!styles.css
+!favicon.ico
+!vendor/
+!vendor/*.js
